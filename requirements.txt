@@ -1,0 +1,17 @@
+# Core
+torch
+transformers
+datasets
+accelerate
+
+# QLoRA fine-tuning
+peft
+bitsandbytes
+
+# Retrieval (HW1 bge-m3 + reranker) used to build the corrective dataset
+sentence-transformers
+
+# Evaluation
+nltk            # EM / sub-EM / METEOR (needs wordnet + omw-1.4 data)
+bert-score      # A2: BERTScore (roberta-large backbone)
+# NLI faithfulness (A2) uses a DeBERTa-v3 MNLI model loaded via transformers

@@ -1,0 +1,9 @@
+torch
+transformers
+datasets
+sentence-transformers
+peft
+tqdm
+huggingface_hub
+# gdown is only needed by setup/download_model.sh for Google Drive folders
+gdown
